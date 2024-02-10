@@ -7,12 +7,8 @@ public class Main {
         str.add ("is");
         str.add ("A - Alexey");
 
-        str.add (0, "Hi");
-
-        System.out.println(str.size());
-
         for (int i = 0; i < str.size(); i++) {
-            System.out.println(str.get(i));
+            System.out.print(str.get(i) + " ");
         }
     }
 }
